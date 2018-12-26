@@ -1,0 +1,28 @@
+{
+  "name": "restfulphoenix",
+  "version": "1.0.0",
+  "description": "a restful blog on phoenix realty regulations",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/earGO/restfulphoenix.git"
+  },
+  "keywords": [
+    "restful"
+  ],
+  "author": "earGO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/earGO/restfulphoenix/issues"
+  },
+  "homepage": "https://github.com/earGO/restfulphoenix#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.0"
+  }
+}
