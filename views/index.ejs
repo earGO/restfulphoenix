@@ -1,0 +1,27 @@
+<% include partials/header%>
+
+<main class="ui container items">
+    <%posts.forEach(post => {%>
+        <div class="item">
+            <div class="image">
+                <img class="image" src="<%=post.image%>">
+            </div>
+            <div class="content">
+                <a class="header" href="/"><%=post.title%></a>
+                <div class="meta">
+                    <%=post.created.toDateString()%>
+                </div>
+                <div class="description">
+                    <%=post.body.substring(0,100)%>
+                </div>
+                <div class="extra">
+                    <a class="small header" href="<%=post.link%>">read outside</a>
+                </div>
+            </div>
+
+        </div>
+    <%})%>
+</main>
+
+
+<% include partials/footer%>
